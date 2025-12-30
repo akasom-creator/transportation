@@ -1,0 +1,63 @@
+{
+    "name": "SafeGuard Nigeria",
+    "short_name": "SafeGuard",
+    "description": "Real-time safety alerts, school tracking, and family protection for Nigerian communities",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Report Incident",
+            "short_name": "Report",
+            "description": "Quickly report a safety incident",
+            "url": "/dashboard/report",
+            "icons": [
+                {
+                    "src": "/icon.svg",
+                    "sizes": "512x512"
+                }
+            ]
+        },
+        {
+            "name": "Emergency SOS",
+            "short_name": "SOS",
+            "description": "Send emergency alert",
+            "url": "/dashboard?sos=true",
+            "icons": [
+                {
+                    "src": "/icon.svg",
+                    "sizes": "512x512"
+                }
+            ]
+        },
+        {
+            "name": "Track Children",
+            "short_name": "Children",
+            "description": "View children's status",
+            "url": "/dashboard/children",
+            "icons": [
+                {
+                    "src": "/icon.svg",
+                    "sizes": "512x512"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        "safety",
+        "utilities",
+        "education"
+    ],
+    "screenshots": [],
+    "prefer_related_applications": false
+}
